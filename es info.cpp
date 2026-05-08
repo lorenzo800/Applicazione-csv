@@ -4,16 +4,21 @@ using namespace std;
 
 struct Info{
 string ClasseToponimo;	
-string DescrizioneToponimo	
-int Numero;
+string DescrizioneToponimo;	
+string Numero;
 string Subalterno;
-int CAP;	
-int SezioneISTAT;	
-double Lat;	
-double Lon;	
-double Location;
+string CAP;	
+string SezioneISTAT;	
+float Lat;	
+float Lon;	
+float Location;
 	
 };
+	
+
+	
+
+
 void caricadati(info x[]; string a){
 	
 	//vedere se il file esiste se esiste
@@ -33,7 +38,6 @@ void caricadati(info x[]; string a){
 
 
 int main(int argc, char** argv) {
-		
 	
 	return 0;
 }   //prendere il file. prendee il contenuto e metterli qui
