@@ -14,11 +14,7 @@ float Lon;
 float Location;
 	
 };
-	
-
-	
-
-
+          	
 void caricadati(info x[]; string a){
 	
 	//vedere se il file esiste se esiste
@@ -39,5 +35,26 @@ void caricadati(info x[]; string a){
 
 int main(int argc, char** argv) {
 	
+	int x;
+	
+	cout<<"menù:"<<endl;
+	cout<<"1:aggiunge dati"<<endl;
+	cout<<"2:visualizza i dati"<<endl;
+	cout<<"inserire la funzione desiderata:"<<endl;
+	
+	cin>>x;
+	
+	switch(x){
+	case 1:
+	case 2:		
+	}
+	
+	
+	
+	
+	
+	
+	
 	return 0;
 }   //prendere il file. prendee il contenuto e metterli qui
+
