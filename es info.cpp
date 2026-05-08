@@ -4,7 +4,8 @@ using namespace std;
 
 struct Info{
 string ClasseToponimo;	
-string DescrizioneToponimo	Numero;
+string DescrizioneToponimo	
+int Numero;
 string Subalterno;
 int CAP;	
 int SezioneISTAT;	
