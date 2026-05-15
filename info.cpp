@@ -21,19 +21,26 @@ struct Location{
           	
 void caricadati(info x[]; string a){
 	
+	
 	//vedere se il file esiste se esiste
  ifstream fileInput("testo.txt"); 
     string linea;
 
     if (fileInput.is_open()) {
         while (fileInput>>linea){ 
-            cout << linea << '\n';
+            cout << linea << endl;
         }
         fileInput.close(); 
     } else {
         cout << "Impossibile aprire il file";
     }
     
+}
+
+
+void visualiza(  ){
+	
+	
 }
 
  
@@ -50,10 +57,9 @@ int main(int argc, char** argv) {
 	
 	switch(x){
 	case 1:
-	case 2:		
+	case 2:
 	}
-	
-	
+		
 	
 	
 	return 0;
