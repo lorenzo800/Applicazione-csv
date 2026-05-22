@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <fstream>
-using namespace std;
+usi  ng namespace std;
 
 
 struct DatiAggiuntivi {
@@ -118,10 +118,10 @@ int main() {
                                 << " classe: " << res[i].a.clTop
                                 << " CAP: " << res[i].a.cap 
                                 << " posizione latitudine: " << res[i].g.lt 
-                             << ", posizione longitudine: " << res[i].g.ln << endl;
-                       }
-                    }
+                            << ", posizione longitudine: " << res[i].g.ln << endl;
+                      }
                 }
+   	      }
                 break;
             }
             case 0:
@@ -134,4 +134,4 @@ int main() {
     } while (x != 0);
 
     return 0;
-}
+}                                  
